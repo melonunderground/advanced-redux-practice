@@ -33,6 +33,6 @@ function mapStateToProps(state) {
     }
 }
 
-const commentsContainer = connect(mapStateToProps)(Comments)
+const CommentsContainer = connect(mapStateToProps)(Comments)
 
-export default commentsContainer;
+export default CommentsContainer;
